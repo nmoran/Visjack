@@ -4,7 +4,7 @@ Jacky::Jacky(char *name) {
 
 	 /* try to become a client of the JACK server */
 
-	 if ((client = jack_client_new (name) == 0) {
+	 if ((client = jack_client_new   (name) == 0) {
 		fprintf (stderr, "jack server not running?\n");
 		return 1;
 	 }
